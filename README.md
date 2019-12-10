@@ -1,5 +1,5 @@
 # myhtaccess
-htaccess including security, speed, and upload size for wp projects
+i use this htaccess template for my custom wp install script
 
 # Includes:
 
