@@ -261,9 +261,9 @@ Options -Indexes
 
 # ENABLE LARGER UPLOADS
 
-		php_value upload_max_filesize 64M
-		php_value post_max_size 64M
-		php_value memory_limit 64M
+		php_value upload_max_filesize 32M
+		php_value post_max_size 32M
+		php_value memory_limit 32M
 
 
 # ANTIHACK - CHECK IF IT IS MY IP TO APPROVE LOGIN
