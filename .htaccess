@@ -254,10 +254,10 @@ Options -Indexes
 </IfModule>
 
 # block humans.txt scans
-<IfModule mod_rewrite.c>
-	RewriteCond %{QUERY_STRING} http\:\/\/www\.google\.com\/humans\.txt\? [NC]
-	RewriteRule .* - [F,L]
-</IfModule>
+# <IfModule mod_rewrite.c>
+# 	RewriteCond %{QUERY_STRING} http\:\/\/www\.google\.com\/humans\.txt\? [NC]
+# 	RewriteRule .* - [F,L]
+# </IfModule>
 
 # ENABLE LARGER UPLOADS
 
